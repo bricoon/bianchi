@@ -22,8 +22,8 @@
     <meta name="description" content="{{ page.description | default: site.description }}" />
     
     <!-- CRITICAL FIX: CSS LINK -->
-    {% comment %} <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet" type="text/css"> {% endcomment %}
-       <link rel="stylesheet" href="/assets/css/main.css">
+    {% comment %}<link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet" type="text/css"> {% endcomment %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
     
   </head>
   <body>

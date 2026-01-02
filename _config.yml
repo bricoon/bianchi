@@ -1,7 +1,6 @@
 # _config.yml
 title: "Joaquin Bianchi - Tennis"
 description: "Professional tennis player rising to the top"
-baseurl: "/bianchi"  # Leave empty for username.github.io
 url: "https://bricoon.github.io"  # Your GitHub username
 
 # Build settings
