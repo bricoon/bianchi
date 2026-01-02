@@ -1,14 +1,23 @@
 # _config.yml
 title: "Joaquin Bianchi - Tennis"
 description: "Professional tennis player rising to the top"
-baseurl: ""  # Leave empty if using username.github.io
-url: "https://bricoon.github.io"  # Replace with your username
+baseurl: ""  # Leave empty for username.github.io
+url: "https://bricoon.github.io"  # Your GitHub username
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
-# Optional for minification
-minify:
-  remove_comments: true
-  compress_js: true
+# Collections
+collections_dir: .
+
+# Minification (optional)
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
