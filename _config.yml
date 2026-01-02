@@ -1,3 +1,8 @@
+# _config.yml
+title: "Joaquin Bianchi - Tennis"
+description: "Professional tennis player rising to the top"
+baseurl: ""  # Leave empty if using username.github.io
+url: "https://bricoon.github.io"  # Replace with your username
 plugins:
   - jekyll-sitemap
   - jekyll-feed
