@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://bricoon.github.io/bianchi/about/</loc>
+<loc>https://bricoon.github.io/about/</loc>
 </url>
 <url>
-<loc>https://bricoon.github.io/bianchi/blog/</loc>
+<loc>https://bricoon.github.io/blog/</loc>
 </url>
 <url>
-<loc>https://bricoon.github.io/bianchi/</loc>
+<loc>https://bricoon.github.io/</loc>
 </url>
 <url>
-<loc>https://bricoon.github.io/bianchi/test.html</loc>
-<lastmod>2026-01-02T19:56:21+00:00</lastmod>
+<loc>https://bricoon.github.io/test.html</loc>
+<lastmod>2026-01-02T20:03:02+00:00</lastmod>
 </url>
 </urlset>
