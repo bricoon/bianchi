@@ -21,9 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -42,9 +39,11 @@ jobs:
           bundle install
           npm ci
       
-      - name: Build with Jekyll
-        run: |
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - name: Build Tailwind CSS
+        run: npm run build:css
+      
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       
