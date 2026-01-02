@@ -1,40 +1,30 @@
-name: Deploy to GitHub Pages
-
+name: Build and Deploy
 on:
   push:
     branches: [main]
-
+permissions:
+  contents: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Ruby
+      - uses: actions/checkout@v4
+      
+      - name: Setup
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-
+          
       - name: Install dependencies
         run: |
-          npm ci
+          gem install bundler
           bundle install
-
-      - name: Build site
-        run: |
-          npm run build
-          ls -la _site/  # Debug: Check if _site was created
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+          npm ci
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          folder: _site
