@@ -1,1 +1,1 @@
-Sitemap: https://bianchi.tennishub.site/sitemap.xml
+Sitemap: https://tennishub.site/sitemap.xml

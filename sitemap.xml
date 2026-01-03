@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://bianchi.tennishub.site/about/</loc>
+<loc>https://tennishub.site/about/</loc>
 </url>
 <url>
-<loc>https://bianchi.tennishub.site/blog/</loc>
+<loc>https://tennishub.site/blog/</loc>
 </url>
 <url>
-<loc>https://bianchi.tennishub.site/</loc>
-</url>
-<url>
-<loc>https://bianchi.tennishub.site/test.html</loc>
-<lastmod>2026-01-03T19:35:28+00:00</lastmod>
+<loc>https://tennishub.site/</loc>
 </url>
 </urlset>
