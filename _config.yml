@@ -2,9 +2,10 @@
 title: "Joaquin Bianchi - Tennis"
 description: "Professional tennis player rising to the top"
 url: "https://bricoon.github.io"  # Your GitHub username
-
+baseurl: ""
 # Build settings
 markdown: kramdown
+github: [metadata]
 permalink: pretty
 plugins:
   - jekyll-sitemap
